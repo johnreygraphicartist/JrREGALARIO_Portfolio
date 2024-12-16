@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>John Rey | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+          <div class="logo-container">
+            <div class="logo">
+              <img src="assets/Layer 11.png" alt="Logo" style="width:50px">
+            </div>
+            <div class="name">
+              <p>John Rey Regalario</p>
+            </div>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+        </nav> 
+        <!-- Off-canvas overlay menu -->     
+        <div id="overlay" class="overlay">
+          <ul>
+            <li><a href="#about-me" onclick="toggleMenu()">About</a></li>
+            <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
+            <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#portfolio" onclick="toggleMenu()">Portfolio</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+      <!-- Landing Section -->
+      <section class="video-section">
+        <video autoplay muted loop id="bg-video">
+          <source src="assets/lv_0_20241115071455.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+          <h1>Hello, I'm <span>John Rey</span></h1>
+          <p>Creative Animator and Graphic Designer</p>
+          <br>
+          <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+      </section>
+
+
+    <!-- About Section -->
+    <section id="about-me">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>Hi! I'm <span>John Rey</span>, a passionate graphic designer and animator from Naga City. With a love for visual storytelling, I specialize in creating engaging designs that breathe life into ideas. My journey in the world of design began at a young age, and I’ve honed my skills in various styles, from sleek and modern to vibrant and whimsical.
+
+                    I thrive on collaboration and believe that the best results come from understanding my clients' vision. Whether I’m crafting a brand identity or bringing a concept to life through animation, I’m committed to delivering high-quality work that captivates and inspires.
+                    
+                    When I’m not designing, you can find me exploring local art, diving into new software, or enjoying the beautiful landscapes of my hometown. Let’s connect and create something amazing together!
+                    
+                    </p>
+            </div>
+            <div class="about-image">
+                <img src="assets/profile.jpg" alt="Your Profile Picture">
+            </div>
+        </div>
+    </section>
+    
+    <!--Resume Section-->
+<br><br>
+    <section id="resume">
+        <h2 style="color: #282828;">Resume</h2>
+
+        <div class="resume-content">
+            <div class="experience">
+                <h3 style="color: #ff7700;">Experience</h3>
+                <div class="job">
+                    <h4>Senior Graphic Designer & Animator</h4>
+                    <p>Upwork, Freelancer | <span>June 2022 - Present</span></p>
+                    <ul>
+                        <li>Creative Design Projects: Delivered over successful projects, including branding, marketing materials, and digital illustrations for various clients across industries.
+                        </li>
+                        <li>Animation Expertise: Produced engaging animated videos using Adobe After Effects and Blender, enhancing client content with dynamic visuals that increase viewer engagement.
+                        </li>
+                        <li>Time Management: Efficiently managed multiple projects simultaneously, consistently meeting deadlines while maintaining high-quality standards.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h4>Graphic Designer</h4>
+                    <p>Tailor swift, Penafrancia Naga City | <span>January 2020 - March 2022</span></p>
+                    <ul>
+                        <li>Jersey Design: Created custom jersey designs for sports teams and events, utilizing client specifications to develop unique graphics that enhance team identity.</li>
+                        <li>Artwork Preparation: Prepared print-ready files and ensured all designs met production standards, reducing errors and ensuring high-quality prints.</li>
+                        <li>Client Consultation: Collaborated with clients to understand their vision and preferences, providing design recommendations that align with their branding and style..</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="education">
+                <h3 style="color: #ff7700;">Education</h3>
+                <div class="degree">
+                    <h4>Bachelor of Science Entertainment Multimedia Major in Digital Animation</h4>
+                    <p>BISCAST, Penafrancia, Naga City, Cam.Sur | <span>2020 to 2025 </p>
+                </div>
+                <div class="degree">
+                    <h4>Junior High School To Senior High School</h4>
+                    <p>PNHS, Poblacion, Pamplona, Cam.Sur | <span>2014 to 2019 </p>
+                </div>
+            </div>
+<br><br>
+        </div>
+    </section>
+
+    <!--Skills-->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skill-item">
+            <h4>Adobe Creative Suite</h4>
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h4>UI/UX & Web Design</h4>
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h4>Digital Art</h4>
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 95%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h4>Maya & Adobe Animate 2D/3D</h4>
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h4>Graphic design & Jersey Design</h4>
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 85%;"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+     <!-- Portfolio Section -->
+<section id="portfolio">
+  <div class="portfolio-gallery">
+      <div class="portfolio-item" onclick="openModal('modal1')">
+          <img src="assets/br1.jpg" alt="Project 1">
+          <div class="portfolio-info">
+            <p><strong>Character Design, Model Sheet & 3D Model</p>
+          </div>
+      </div>
+            <div class="portfolio-item" onclick="openModal('modal2')">
+                <img src="assets/jersey1.jpg" alt="Project 2">
+                <div class="portfolio-info">
+                  <p><strong>Photoshop & Illustrator (jersey, tarpaulin, and logo)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- Modal 1 for Project 1 -->
+<div id="modal1" class="modal">
+  <span class="close" onclick="closeModal('modal1')">&times;</span>
+  <div class="modal-content">
+      <div class="modal-item">
+          <img src="assets/cd4.jpg" alt="Character Model - Front View" onclick="showDetails('cd4-details')">
+          <div id="cd4-details" class="details">
+              <p><strong>Description:</strong>Iron Man Character Model - Front View Pending</p>
+              <p><strong>Tools/Software:</strong> Maya, Blender</p>
+              <p><strong>Size:</strong> 2640x1607px</p>
+          </div>
+      </div>
+      <div class="modal-item">
+          <img src="assets/cd2.jpg" alt="Character Model - Side View" onclick="showDetails('cd2-details')">
+          <div id="cd2-details" class="details">
+              <p><strong>Description:</strong> Fighting Scene Okot Laban Ki Bulan</p>
+              <p><strong>Tools/Software:</strong> Photoshop</p>
+              <p><strong>Size:</strong> 2640x1607px</p>
+          </div>
+      </div>
+      <div class="modal-item">
+          <img src="assets/2.jpg" alt="Model Sheet Design" onclick="showDetails('model-sheet-details')">
+          <div id="model-sheet-details" class="details">
+              <p><strong>Description:</strong> Environment Nightmare</p>
+              <p><strong>Tools/Software:</strong> Photoshop</p>
+              <p><strong>Size:</strong> 2640x1607px</p>
+          </div>
+      </div>
+      <div class="modal-item">
+        <img src="assets/1.jpg" alt="Character Model Design" onclick="showDetails('1-details')">
+        <div id="1-details" class="details">
+            <p><strong>Description:</strong> Environment Daruanak</p>
+            <p><strong>Tools/Software:</strong> Photoshop</p>
+            <p><strong>Size:</strong> 2640x1607px</p>
+        </div>
+     </div>
+     <div class="modal-item">
+        <img src="assets/cd5.jpg" alt="Character Model Design" onclick="showDetails('cd5-details')">
+        <div id="cd5-details" class="details">
+            <p><strong>Description:</strong> Rigging Maya Side,Top,and Back View</p>
+            <p><strong>Tools/Software:</strong> Maya</p>
+            <p><strong>Size:</strong> 2640x1607px</p>
+        </div>
+    </div>
+    <div class="modal-item">
+      <img src="assets/cd6.jpg" alt="Character Model Design" onclick="showDetails('cd6-details')">
+      <div id="cd6-details" class="details">
+          <p><strong>Description:</strong> Character Design 3 Action Pose of Magindang </p>
+          <p><strong>Tools/Software:</strong> Photoshop</p>
+          <p><strong>Size:</strong> 2640x1607px</p>
+      </div>
+  </div>
+  <div class="modal-item">
+    <img src="assets/cd1.jpg" alt="Character Model Design" onclick="showDetails('cd1-details')">
+    <div id="cd1-details" class="details">
+        <p><strong>Description:</strong> Character Design 3 Action Pose of Okot</p>
+        <p><strong>Tools/Software:</strong> Photoshop</p>
+        <p><strong>Size:</strong>2640x1607px</p>
+    </div>
+  </div>
+  <div class="modal-item">
+    <img src="assets/cd3.jpg" alt="Character Model Design" onclick="showDetails('cd3-details')">
+    <div id="cd3-details" class="details">
+        <p><strong>Description:</strong> Model Sheet Daruanak Side, 3/4, Front View</p>
+        <p><strong>Tools/Software:</strong> Photoshop</p>
+        <p><strong>Size:</strong> 2640x1607px</p>
+    </div>
+   </div>
+   <div class="modal-item">
+    <img src="assets/3.jpg" alt="Character Model Design" onclick="showDetails('3-details')">
+    <div id="3-details" class="details">
+        <p><strong>Description:</strong> Model Sheet Haliya Side, 3/4, Front View</p>
+        <p><strong>Tools/Software:</strong> Photoshop</p>
+        <p><strong>Size:</strong> 2640x1607px</p>
+    </div>
+  </div>
+  <div class="modal-item">
+    <img src="assets/4.jpg" alt="Character Model Design" onclick="showDetails('4-details')">
+    <div id="4-details" class="details">
+        <p><strong>Description:</strong> Model Sheet Bulan Side, 3/4, Front View </p>
+        <p><strong>Tools/Software:</strong> Photoshop</p>
+        <p><strong>Size:</strong> 2640x1607px</p>
+    </div>
+  </div>
+  <div class="modal-item">
+    <img src="assets/6.jpg" alt="Character Model Design" onclick="showDetails('6-details')">
+    <div id="6-details" class="details">
+        <p><strong>Description:</strong> Model Sheet Magindang Side, 3/4, Front View </p>
+        <p><strong>Tools/Software:</strong> Photoshop</p>
+        <p><strong>Size:</strong>2640x1607px</p>
+    </div>
+  </div>
+  <div class="modal-item">
+    <img src="assets/7.jpg" alt="Character Model Design" onclick="showDetails('7-details')">
+    <div id="7-details" class="details">
+        <p><strong>Description:</strong> Model Sheet Okot Side, 3/4, Front View </p>
+        <p><strong>Tools/Software:</strong> Photoshop</p>
+        <p><strong>Size:</strong> 2640x1607px</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal 2 for Project 2 -->
+    <div id="modal2" class="modal">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <div class="modal-content">
+            <img src="assets/logo pnhs.jpg" alt="Additional Image 1">
+            <img src="assets/jersey3.jpg" alt="Additional Image 2">
+            <img src="assets/jersey2.jpg" alt="Additional Image 3">
+            <img src="assets/jersey1.jpg" alt="Additional Image 4">
+            <img src="assets/jersey4.jpg" alt="Additional Image 5">
+            <img src="assets/tarpaulin1.jpg" alt="Additional Image 6">
+            <img src="assets/a.jpg" alt="Additional Image 7">
+            <img src="assets/b.jpg" alt="Additional Image 8">
+            <img src="assets/c.jpg" alt="Additional Image 9">
+            <img src="assets/d.jpg" alt="Additional Image 10">
+            <img src="assets/e.jpg" alt="Additional Image 12">
+            <img src="assets/f.jpg" alt="Additional Image 12">
+        </div>
+    </div>
+    
+    <!-- Video Gallery Section -->
+<section id="video-gallery">
+  <br>
+  <h2 style="text-align: center;">Short 2D Animation</h2>
+  <div class="video-gallery">
+      <div class="video-item">
+          <video controls>
+              <source src="assets/lv_0_20241030111520.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+          
+          <!-- Comment Section -->
+          <div class="comment-section">
+              <h3>Comments</h3>
+              
+              <!-- Comments Display -->
+              <div class="comments-display" id="comments-display-1">
+                  <!-- User comments will be displayed here -->
+              </div>
+              
+              <!-- Comment Input -->
+              <textarea id="comment-input-1" placeholder="Add a comment..."></textarea>
+              <button onclick="addComment(1)">Post Comment</button>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- JavaScript to handle comments -->
+<script>
+  function addComment(videoId) {
+      const commentInput = document.getElementById(`comment-input-${videoId}`);
+      const commentText = commentInput.value;
+      
+      if (commentText.trim()) {
+          const commentsDisplay = document.getElementById(`comments-display-${videoId}`);
+          const newComment = document.createElement('p');
+          newComment.textContent = commentText;
+          
+          commentsDisplay.appendChild(newComment);
+          commentInput.value = ''; // Clear the input
+      }
+  }
+</script>
+
+<style>
+  /* Video gallery styling */
+  #video-gallery {
+      max-width: 1100px;
+      margin: 0 auto;
+  }
+
+  /* Comment section styling */
+  .comment-section {
+      border: 2px solid#ff7700; /* Border color */
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 8px;
+      background-color: #606060; /* Light background */
+  }
+
+  /* Comments display styling */
+  .comments-display p {
+      background-color: #ffffff; /* Light green background for comments */
+      padding: 8px;
+      border-radius: 5px;
+      margin: 5px 0;
+      font-size: 0.95em;
+  }
+
+  /* Textarea styling */
+  .comment-section textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      resize: none;
+  }
+
+  /* Button styling */
+  .comment-section button {
+      background-color: #ff7700; /* Button color */
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 5px;
+  }
+
+  .comment-section button:hover {
+      background-color: #ff7700; /* Darker green on hover */
+  }
+</style>
+
+  
+   
+<section id="contact">
+  <h2>Contact Me</h2>
+  <br>
+  <div class="contact-container">
+      <div class="contact-info">
+          <h3>Details</h3>
+          <div class="info-item">
+              <img src="assets/pngwing.com.png" alt="Email Icon" class="icon">
+              <p><strong>Email:</strong> reyjohnregalario@gmail.com</p>
+          </div>
+          <div class="info-item">
+              <img src="assets/pngwing.com (1).png" alt="Phone Icon" class="icon">
+              <p><strong>Phone:</strong> +639859746615</p>
+          </div>
+          <div class="info-item">
+              <img src="assets/pngwing.com (2).png" alt="Address Icon" class="icon">
+              <p><strong>Address:</strong> 5A, San Antonio Street, Penafrancia, Naga.City, 4400</p>
+          </div>
+      </div>
+      <form onsubmit="sendMessage()" class="contact-form">
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+        <input type="text" name="facebook" id="facebook" placeholder="Facebook Name" required>
+        <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+  <script>
+    function sendMessage() {
+        const name = document.getElementById('name').value;
+        const fbName = document.getElementById('facebook').value;
+
+        const messengerUrl = `https://m.me/jonrey.regalario`;
+window.open(messengerUrl, '_blank'); // Opens Messenger in a new tab
+    }
+</script>
+</section>
+    <!-- Footer -->
+    <footer>
+        <p>Just Click On</p>
+        <br>
+        <div>
+          <a href="https://www.facebook.com/jonrey.regalario" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/janrygalario/" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.upwork.com/freelancers/~01b61bc82cd8776b48" target="_blank" aria-label="Upwork">
+          <img src="assets/pngwing.com (28).png" alt="Upwork" style="width: 31px; height: 31px;">
+      </a>
+              
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
